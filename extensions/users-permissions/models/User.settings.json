@@ -59,9 +59,9 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "estate": {
-      "via": "users",
-      "model": "estates"
+    "estates": {
+      "via": "user",
+      "collection": "estates"
     }
   }
 }

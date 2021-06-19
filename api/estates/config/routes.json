@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/estates/me",
+      "handler": "estates.me",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/estates/count",
       "handler": "estates.count",
       "config": {

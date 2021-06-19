@@ -33,13 +33,10 @@
     "condition": {
       "type": "string"
     },
-    "date": {
-      "type": "date"
-    },
-    "users": {
+    "user": {
       "plugin": "users-permissions",
-      "collection": "user",
-      "via": "estate"
+      "model": "user",
+      "via": "estates"
     },
     "image": {
       "model": "file",
@@ -52,6 +49,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
     }
   }
 }
